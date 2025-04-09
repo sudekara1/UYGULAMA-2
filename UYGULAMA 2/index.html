@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="registration-container">
+        <div class="left-panel">
+            <img src="çalışankadın.jpg" alt="Registration Image">
+        </div>
+        <div class="right-panel">
+            <h2>ÖĞRENCİ KAYIT FORMU</h2>
+            <form class="registration-form">
+                <div class="form-row">
+                    <label>Ad :</label>
+                    <input type="text" name="name">
+                    <label>Baba Adı :</label>
+                    <input type="text" name="father-name">
+                </div>
+                <div class="form-row">
+                    <label>Adres :</label>
+                    <input type="text" name="address">
+                </div>
+                <div class="form-row">
+                    <label>Cinsiyet :</label>
+                    <label><input type="radio" name="gender" value="male" checked> Erkek</label>
+                    <label><input type="radio" name="gender" value="female"> Kadın</label>
+                </div>
+                <div class="form-row">
+                    <label>Durum :</label>
+                    <select name="state">
+                        <option value="">Seç</option>
+                        <option value="state1">Durum 1</option>
+                        <option value="state2">Durum 2</option>
+                    </select>
+                    <label>Şehir :</label>
+                    <input type="text" name="city">
+                </div>
+                <div class="form-row">
+                    <label>Doğum Tarihi :</label>
+                    <input type="date" name="dob">
+                </div>
+                <div class="form-row">
+                    <label>Pin Kodu:</label>
+                    <input type="text" name="pincode">
+                </div>
+                <div class="form-row">
+                    <label>Kurs:</label>
+                    <input type="text" name="course">
+                </div>
+                <div class="form-row">
+                    <label>Email ID :</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-buttons">
+                    <button type="reset">Hepsini Sıfırla</button>
+                    <button type="submit" class="submit">Formu Gönder</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
